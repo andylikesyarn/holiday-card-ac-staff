@@ -101,7 +101,8 @@ let hunterMagicText = document.getElementById("crystalball");
 
 function hunterButtonClick() {
   console.log("hunter's button was clicked");
-  hunterMagicText.textContent = "hunter's message";
+  hunterMagicText.textContent =
+    "We wish you a marry developer christmas may all your gifts this year be programmed coals <3";
 }
 circle9.addEventListener("click", hunterButtonClick);
 
